@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    background: linear-gradient(
+        145deg,
+        rgb(45, 44, 44),
+        rgb(255, 47, 0)
+    );
+}
+.navbar-brand{
+    padding-left: 25px;
+}
+.container{
+    width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+    border: 2px thin orangered;
+    border-radius: 10px;
+    background-color: white;
+    height: 300px;
+}
+input[type=text],input[type=password]{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    color: #4f4f4f;
+    font-size: 16px;
+    border-radius: 5px;
+}
+input[type=button]{
+    font-size: 16px;
+    background: linear-gradient(#37ff00 5%, #37ff00 100%);
+    border: 1px solid #4cef37;
+    color: #4E4D4B;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 0;
+    outline:none;
+}
