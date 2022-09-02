@@ -34,13 +34,27 @@ input[type=text],input[type=password]{
 }
 input[type=button]{
     font-size: 16px;
-    background: linear-gradient(#37ff00 5%, #37ff00 100%);
-    border: 1px solid #4cef37;
-    color: #4E4D4B;
+    background: linear-gradient orangered;
+    border: 1px solid orangered;
+    color: white;
+    background-color: orangered;
     font-weight: bold;
     cursor: pointer;
     width: 100%;
     border-radius: 5px;
     padding: 10px 0;
     outline:none;
+}
+
+#register {
+    width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+    border: 2px thin orangered;
+    border-radius: 10px;
+    background-color: white;
+    height: 400px;
 }

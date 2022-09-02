@@ -43,7 +43,7 @@ body {
     height: 45px;
     width: 20%;
     border-radius: 5px;
-    background-color: rgb(5, 247, 29);
+    background-color: orangered;
     border: none;
 }
 #tasks {
@@ -75,4 +75,10 @@ body {
 }
 .completed{
     text-decoration: line-through;
+}
+#journal {
+    padding-left: 500px;
+}
+#tag {
+    
 }
