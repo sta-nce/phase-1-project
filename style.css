@@ -79,6 +79,12 @@ body {
 #journal {
     padding-left: 500px;
 }
-#tag {
-    
+#p {
+    color: white;
+}
+#sub {
+    color: white;
+    background-color: orangered;
+    border-radius: 6px;
+    border: none;
 }
