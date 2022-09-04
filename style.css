@@ -1,3 +1,4 @@
+/*Main page styling*/
 body {
     height: 100vh;
     background: linear-gradient(
@@ -65,11 +66,11 @@ body {
     border-bottom: 2px solid rgb(67, 67, 67);
 }
 .task button {
-    background-color: red;
+    background-color: black;
     color: white;
     height: 100%;
-    width: 40px;
-    border-radius: 5px;
+    width: 30px;
+    border-radius: 100px;
     border: none;
     outline: none;
 }

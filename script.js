@@ -2,7 +2,9 @@ document.querySelector('#push').onclick = function ()
 {
     if(document.querySelector('#newtask input').value.length == 0) {
         alert("Please Enter a Task")
+        /*A user cannot input an empty task*/
     } else{
+        /*New tasks are pushed into a new created div after being submitted*/
         document.querySelector('#tasks').innerHTML 
         += `
          <div class="task">
@@ -10,7 +12,7 @@ document.querySelector('#push').onclick = function ()
                 ${document.querySelector('#newtask input').value}
             </span>
             <button class="delete">
-            <i class="fa fa-minus-circle" aria-hidden="true"></i>
+            <i class="fa fa-times-circle-o" aria-hidden="true"></i>
             </button>
          </div>
         `;

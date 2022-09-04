@@ -1,4 +1,5 @@
-var attempt = 3;
+/*Login page js*/
+var attempt = 3;/*Attempts set to three*/
 function validate(){
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
@@ -6,10 +7,10 @@ function validate(){
         alert ("Login successfully");
         window.location = "index.html";
         return false;
-    }
+    }/*If function to determine whether the user details much to the stored ones*/
     else{
         attempt --;
-        alert("You have left "+attempt+" attempt;");
+        alert("Incorrect login details,You have left "+attempt+" attempt;");
     if( attempt == 0){
         document.getElementById("username").disabled = true;
         document.getElementById("password").disabled = true;

@@ -1,3 +1,4 @@
+/*Body styling*/
 body {
     height: 100vh;
     background: linear-gradient(
@@ -6,9 +7,11 @@ body {
         rgb(255, 47, 0)
     );
 }
+/*Navigation Bar*/
 .navbar-brand{
     padding-left: 25px;
 }
+/*login form*/
 .container{
     width: 450px;
     position: absolute;
@@ -21,6 +24,7 @@ body {
     background-color: white;
     height: 300px;
 }
+/*Password and Username Input area*/
 input[type=text],input[type=password]{
     width: 100%;
     height: 40px;
@@ -32,6 +36,7 @@ input[type=text],input[type=password]{
     font-size: 16px;
     border-radius: 5px;
 }
+/*Submit button*/
 input[type=button]{
     font-size: 16px;
     background: linear-gradient orangered;
@@ -45,7 +50,7 @@ input[type=button]{
     padding: 10px 0;
     outline:none;
 }
-
+/*Registration form*/
 #register {
     width: 450px;
     position: absolute;
